@@ -1,3 +1,3 @@
 package com.example.databinding
 
-data class Quote(val name: String,val lastName:String)
+data class Quote(val name: String,val lastName:String,val url:String)

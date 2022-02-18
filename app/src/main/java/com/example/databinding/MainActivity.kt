@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
            /* binding.name = "Your name"
             binding.lastName = "Last Name"*/
 
-       val quoteObj = Quote("Parth","Shah")
-        binding.quote=quoteObj
-
+        val quote=Quote("Parth","Shah",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe0O0260hzKyKursZUTtZAxECP0gSVJ2JXwQ&usqp=CAU")
+        binding.quote=quote
     }
 }
